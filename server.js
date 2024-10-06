@@ -13,7 +13,7 @@ connectDB(process.env.MONGODB_URI);
 
 app.use(
   cors({
-    origin: "https://community-mapping.netlify.app/",
+    origin: "https://community-mapping.netlify.app",
     methods: "GET, POST, PUT, PATCH, DELETE",
     credentials: true,
   })
